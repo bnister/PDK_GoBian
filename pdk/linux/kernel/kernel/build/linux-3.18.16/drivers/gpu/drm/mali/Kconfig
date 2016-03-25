@@ -1,0 +1,8 @@
+config DRM_MALI
+	tristate "DRM Support for Mali-400"
+	depends on DRM && UMP
+	help
+	  Choose this option if you have a GoWarrior TigerBoard.
+	  If M is selected the module will be called gowarriordrm.
+
+
